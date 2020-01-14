@@ -14,7 +14,7 @@ class Anagram
       puts "the sorted test word is #{sorted_split_word}" 
       
       puts "the sorted main word is #{@word.split.sort}" 
-      if @word.split("").sor == sorted_split_word 
+      if @word.split("") == sorted_split_word 
         anagrams << split_word 
       end 
     end
