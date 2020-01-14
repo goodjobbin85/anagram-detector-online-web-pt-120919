@@ -13,7 +13,7 @@ class Anagram
       sorted_split_word = split_word.sort
       puts sorted_split_word 
       puts @word 
-      if @word.split.sort == split_word 
+      if @word.split.sort == sorted_split_word 
         anagrams << split_word 
       end 
     end
