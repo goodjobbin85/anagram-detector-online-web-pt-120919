@@ -11,7 +11,7 @@ class Anagram
     possible_matches.each do |word| 
       split_word = word.split("") 
       sorted_split_word = split_word.sort
-      puts sorted_split_word 
+      puts "the sorted test word is #{sorted_split_word 
       puts @word 
       if @word.split.sort == sorted_split_word 
         anagrams << split_word 
